@@ -1,5 +1,4 @@
 import React from "react"
+import {MessageForm} from "./MessageForm"
 
-export const App = () => (
-  <h1>Hello world!</h1>
-)
+export const App = () => <MessageForm/>
